@@ -1,0 +1,15 @@
+# finished files
+dist/
+
+# npm
+node_modules/
+
+# Project files
+*.sublime-project
+*.sublime-workspace
+.vscode/
+.idea/
+venv/
+
+# Other
+*.DS_Store

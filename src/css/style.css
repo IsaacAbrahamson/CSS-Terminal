@@ -124,11 +124,11 @@ h1 {
   font-size: 50px;
 }
 
-.screen {
+#screen {
   height: 100vh;
 }
 
-.screen:after {
+#screen:after {
   animation: grain 8s steps(10) infinite;
   background-image: url(../img/noise.png);
   content: "";
@@ -157,6 +157,22 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Change Theme */
+.themes {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.themes ul li {
+  display: inline-block;
+  color: white;
+}
+
+.themes ul li a {
+  color: white;
 }
 
 /* https://css-tricks.com/snippets/css/animated-grainy-texture/ */

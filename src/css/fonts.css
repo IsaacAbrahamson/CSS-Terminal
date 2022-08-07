@@ -1,0 +1,25 @@
+/* FONTS */
+@font-face {
+    font-family: 'Classic Console';
+    src: url('../fonts/classic_console_neue.ttf');
+}
+
+@font-face {
+    font-family: 'White Rabbit';
+    src: url('../fonts/white_rabbit.ttf');
+}
+
+@font-face {
+    font-family: 'VT323';
+    src: url('../fonts/VT323.ttf');
+}
+
+@font-face {
+    font-family: 'pix Chicago';
+    src: url('../fonts/pixChicago.woff2') format('woff2'),
+        url('../fonts/pixChicago.woff') format('woff'),
+        url('../fonts/pixChicago.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}

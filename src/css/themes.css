@@ -1,0 +1,84 @@
+/* COLOR THEMES */
+.amber {
+    background: #38240f;
+    background: radial-gradient(circle, #38240f 0%, #150d04 100%);
+    color: #FFA128;
+    font-family: 'Classic Console';
+    font-size: 24px;
+}
+
+.amber:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom,
+            rgba(18, 16, 16, 0) 50%,
+            rgba(0, 0, 0, 0.25) 50%);
+    background-size: 100% 2px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.amber .scanline {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(108 67 14 / 84%) 10%, rgba(0, 0, 0, 0.1) 100%);
+    opacity: 0.1;
+    animation: scanline 8s linear infinite;
+}
+
+.green {
+    background: #062E1C;
+    background: radial-gradient(circle, #062E1C 0%, #060B09 100%);
+    color: #54E16B;
+    font-family: "VT323";
+    font-size: 24px;
+}
+
+.fallout {
+    background: #063C1D;
+    background: radial-gradient(circle, #195029 0%, #090000 100%);
+    color: #4BE478;
+    font-family: 'White Rabbit';
+    font-size: 24px;
+}
+
+.fallout:before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: linear-gradient(to bottom,
+            rgba(18, 16, 16, 0) 50%,
+            rgba(0, 0, 0, 0.25) 50%);
+    background-size: 100% 4px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.fallout .scanline {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 0%, rgb(5 122 14 / 88%) 10%, rgba(0, 0, 0, 0.1) 100%);
+    opacity: 0.1;
+    animation: scanline 8s linear infinite;
+}
+
+.cyan {
+    background: #222D27;
+    background: radial-gradient(circle, #222D27 0%, #101713 100%);
+    color: #55F8D3;
+    font-family: "VT323";
+    font-size: 24px;
+}
+
+.black {
+    background: #161616;
+    color: #f7f7f7;
+    font-family: "pix Chicago";
+    font-size: 12px;
+    line-height: 1.7;
+}

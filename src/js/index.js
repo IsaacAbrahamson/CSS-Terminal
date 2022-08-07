@@ -7,5 +7,6 @@ btns.forEach((btn) => {
     let newTheme = event.target.id
     screen.classList.remove(currentTheme)
     screen.classList.add(newTheme)
+    currentTheme = newTheme
   })
 })

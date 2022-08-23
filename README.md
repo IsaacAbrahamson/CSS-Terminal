@@ -1,4 +1,4 @@
-# Fallout Terminal
+# CSS Terminal
 
 https://terminal.iabrahamson.com/
 

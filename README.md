@@ -2,8 +2,7 @@
 
 https://terminal.iabrahamson.com/
 
-![image](https://user-images.githubusercontent.com/17521691/183326367-82d0e227-7115-461d-a8ca-c2d41ceb3272.png)
-
+![image](https://user-images.githubusercontent.com/17521691/186063544-292c1d56-c057-4ca1-819f-afc7d370edad.png)
 
 ## Overview
 
